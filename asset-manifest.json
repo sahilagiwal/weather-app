@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sahilagiwal.github.io/weather-app/static/css/main.073c9b0a.css",
+    "main.js": "/sahilagiwal.github.io/weather-app/static/js/main.7932cde5.js",
+    "static/js/787.d9312eb8.chunk.js": "/sahilagiwal.github.io/weather-app/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/sahilagiwal.github.io/weather-app/index.html",
+    "main.073c9b0a.css.map": "/sahilagiwal.github.io/weather-app/static/css/main.073c9b0a.css.map",
+    "main.7932cde5.js.map": "/sahilagiwal.github.io/weather-app/static/js/main.7932cde5.js.map",
+    "787.d9312eb8.chunk.js.map": "/sahilagiwal.github.io/weather-app/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7932cde5.js"
+  ]
+}
