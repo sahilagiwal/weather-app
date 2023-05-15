@@ -15,7 +15,7 @@ import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
 
-const NavBar = () => {
+const NavBar = ({ inputdata, setInputData, clickHandler, locationFinder }) => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: "#0C134F" }}>
@@ -35,8 +35,15 @@ const NavBar = () => {
               sx={{ ml: 1, flex: 1 }}
               placeholder="Search Location"
               inputProps={{ "aria-label": "Search Location" }}
+              value={inputdata}
+              onChange={setInputData}
             />
-            <IconButton type="button" sx={{ p: "10px" }} aria-label="search">
+            <IconButton
+              onClick={clickHandler}
+              type="button"
+              sx={{ p: "10px" }}
+              aria-label="search"
+            >
               <SearchIcon sx={{ color: "#0C134F" }} />
             </IconButton>
           </Paper>
@@ -45,6 +52,7 @@ const NavBar = () => {
             <ThunderstormIcon />
           </Typography>
           <Button
+            onClick={locationFinder}
             sx={{
               backgroundColor: "#D4ADFC",
               color: "#0C134F",
