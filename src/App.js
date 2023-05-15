@@ -35,7 +35,7 @@ function App() {
       finddata = latlong;
     }
     fetch(
-      `http://api.weatherapi.com/v1/current.json?key=a78df8dfa46c4c12bc935703231505&q=${finddata}`
+      `https://api.weatherapi.com/v1/current.json?key=a78df8dfa46c4c12bc935703231505&q=${finddata}`
     )
       .then((response) => response.json())
       .then((Wdata) => setWeatherData(Wdata));
